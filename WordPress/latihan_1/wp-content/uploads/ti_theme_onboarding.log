@@ -1,0 +1,15 @@
+[05/Mar/2020:01:12:33] (ℹ️): WordPress Instance Info:
+[05/Mar/2020:01:12:33] (ℹ️): Home URL : http://localhost/WordPress/latihan_1
+[05/Mar/2020:01:12:33] (ℹ️): Site URL : http://localhost/WordPress/latihan_1
+[05/Mar/2020:01:12:33] (ℹ️): WordPress Version : 5.3.1
+[05/Mar/2020:01:12:33] (ℹ️): Onboarding Version : 1.7.12
+[05/Mar/2020:01:12:33] (ℹ️): Multisite : No
+[05/Mar/2020:01:12:33] (ℹ️): Server Info : Apache/2.4.29 (Ubuntu)
+[05/Mar/2020:01:12:33] (ℹ️): PHP Version : 7.4.3
+[05/Mar/2020:01:12:33] (ℹ️): HTTPS : No
+[05/Mar/2020:01:12:33] (ℹ️): PHP Max Execution Time : 30
+[05/Mar/2020:01:12:33] (ℹ️): PHP Max Input Vars : 1000
+[05/Mar/2020:01:12:33] (ℹ️): Max Upload Size : 2097152
+[05/Mar/2020:01:12:33] (ℹ️): Plugins:
+[05/Mar/2020:01:12:33] (ℹ️): [PLUGIN] Classic Editor : v1.5 (WordPress Contributors)
+[05/Mar/2020:01:12:33] (ℹ️): [PLUGIN] WPForms Lite : v1.5.8.2 (WPForms)

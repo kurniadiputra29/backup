@@ -1,0 +1,9 @@
+<?php
+include '../koneksi/koneksi.php';
+$ID   = $_POST['id'];
+$nama = $_POST['nama'];
+
+$sql = "UPDATE category SET name='$nama' WHERE id='$ID'";
+mysqli_query($connect,$sql);
+header('location:index_category.php');
+?>

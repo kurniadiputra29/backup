@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+			.clearfix::after {
+   		content: "";
+   		clear: both;
+   		display: table;
+			}
+			#container {
+			background: #3B5998;
+			width: 100%;
+			}
+			.wrapper{
+			width: 80%;
+			margin: auto;
+			font-family: arial;
+			}
+			#header img{
+			display: inline-block;
+			width: 20%;
+			text-align: left;
+			padding: 30px 0px 15px 0px;
+			color: white;
+			}
+			form{
+			float: right;
+			position: relative;
+			padding: 10px 0px 15px 0px;
+			}
+			#login td{
+			padding: 5px 0px 1px 0px;
+			}
+			#kata{
+			color: #F5F7FA;
+			font-size: 13px;	
+			}
+			#form input{
+			border: 1px solid black;
+			height: 25px;
+			}
+			#submit input{
+			background: #134aaf;
+			cursor: pointer;
+			color: white;
+			font-weight: bold;
+			border: 1px solid #2d4a7f;
+			}
+			#submit input:hover{
+			background: #3B5998;
+			}
+			#lupa td a{
+			text-decoration: none;
+			color: #9CB4D8;
+			font-size: 13px;
+			}
+			#lupa td a:hover{
+			text-decoration: underline;
+			}
+			#main{
+			}
+			#baru{
+				display: block;
+				background: #E9EBEE;
+				min-height: 500px;
+			}	
+			#colum{
+			width: 45%;
+			margin: 0px 0px 0px 55%;
+			}
+			#colum h1 {
+			font-weight: bold;
+			font-size: 35px;
+			padding: 10px 0px 5px 0px;
+			}
+			#colum h2 {
+			color: #49383E;
+			font-size: 20px;
+			padding: 15px 0px 5px 0px;
+			}
+			#masuk td {
+			padding: 5px 10px 5px 0px;
+			}
+			#masuk td input{
+			font-size: 18px;
+			width: 100%;
+			height: 45px;
+			border-radius: 5px;
+			border: 1px solid #BDC7D8;
+			padding-left: 15px;
+			}
+			#tanggal{
+			width: 100%;
+			}
+			#tanggal h2 {
+			color: #49383E;
+			font-size: 20px;
+			padding: 15px 0px 15px 0px;
+			}
+			#tanggal td select {
+			border: 1px solid #BDC7D8;
+			height: 30px;
+			font-size: 15px;
+			width: 100%;
+			}
+			#tanggal p {
+			padding-left: 15px;
+			width: 50%;
+			font-size: 10px;
+			text-align: left;
+			}
+			#tanggal p a{
+			color: #1671b7;
+			text-decoration: none;
+			}
+			#jenis_kelamin table{
+			position: absolute;
+			float: left;
+			margin-top: 5px;
+			}
+			#jenis_kelamin td{
+			float: left;
+			padding: 15px;
+			font-size: 20px;
+			}
+			#notiv {
+			margin-top: 70px;
+			}
+			#notiv p{
+			color: #3f4142;
+			margin-right: 25%;
+			font-size: 12px;
+			}
+			#notiv a{
+			color: #1671b7;
+			text-decoration: none;
+			}
+			#colum button{
+			margin: 20px 0px 10px 0px;
+			font-size: 20px;
+			width: 50%;
+			height: 50px;
+			color: white;
+			background-image:linear-gradient(  #73B25E, #427f2d);
+			font-weight: bold;
+			cursor: pointer;
+			border: 1px solid #1671b7;
+			border-radius: 5px;
+			}
+			#colum button:hover{
+			background-image:linear-gradient( #427f2d, #73B25E);
+			}
+			#buat p {
+			font-size: 85%;
+			color: #49383E;
+			margin-bottom: 40px;
+			font-weight: bold;
+			}
+			#buat p a {
+			text-decoration: none;
+			color: #1671b7;
+			font-weight: bold;
+			}
+			#bahasa{
+			background: white;
+			}

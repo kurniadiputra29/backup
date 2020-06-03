@@ -1,0 +1,12 @@
+<?php
+include '../koneksi.php';
+echo $ID   = $_POST['id'];
+echo $category = $_POST['category'];
+echo $nama = $_POST['nama'];
+echo $price = $_POST['price'];
+echo $status = $_POST['status'];
+
+$sql = "UPDATE item SET category = '$category', name = '$nama', price = '$price', status = '$status' WHERE id = '$ID'";
+mysqli_query($connect,$sql);
+header('location:index_item.php');
+?>
